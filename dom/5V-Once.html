@@ -1,0 +1,28 @@
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+<div id="app">
+
+    <!-- V-ONCE serve para interpolar o valor uma vez e não monitorá-lo mais 
+    para que não seja modificado quando sofrer alterações-->
+    <p v-once>{{ titulo }} </p> <!-- SERA EXIBIDO O 'TITULO EM VUE' -->
+    <p>{{ saudacao() }} </p>
+    <a v-bind:href="link">Google</a>
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            titulo: 'Titulo em Vue',
+            link: 'http://google.com.br'
+        }, methods: {
+            saudacao: function() {
+                this.titulo = 'Bom dia!!!'
+                return this.titulo
+            }
+        }
+    })
+    
+</script>
