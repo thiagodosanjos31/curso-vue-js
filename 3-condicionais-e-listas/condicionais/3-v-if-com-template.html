@@ -1,0 +1,38 @@
+
+
+<meta charset="utf-8">
+<script src="https://unpkg.com/vue"></script>
+
+
+<!--PODE UTILIZAR PARA ELEMENTOS DIFERENTES DESDE QUE ESTEJAM
+ANINHADOS LADO A LADO-->
+
+<!--UTILIZANDO A TAG TEMPLATE, NENHUM ELEMENTO SERÁ EXIBIDO ENVOLTO
+DO CONTEUDO INTERNO DA PRÓPRIA TAG (NO CASO VOCÊ NAO PRECISA
+INCLUIR UMA DIV, POR EXEMPLO)-->
+
+<!--V-IF IRA RETIRAR OS ELEMENTOS DA PÁGINA, ENTÃO NÃO PODERÁ
+MAIS SER LOCALIZADO-->
+<div id="app">
+    <template v-if="logado">
+        <p>Usuário logado: {{ nome }}</p>
+        <p>Perfil: Admin</p>
+    </template>    
+    <p v-else-if="anonimo">Navegando como anonimo</p>
+    <p v-else>Nenhum usuário logado</p>
+    <button @click="logado = !logado"> {{ logado ? 'Sair' : 'Entrar'}}</button>
+    <input type="checkbox" name="" v-model="anonimo">
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            nome: 'Thiago',
+            logado: false,
+            anonimo: true,
+        }
+
+    })
+
+</script>
