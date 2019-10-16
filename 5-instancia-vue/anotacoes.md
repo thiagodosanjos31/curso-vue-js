@@ -11,4 +11,3 @@ R: Sim
 pode chamar pois não tenho acesso as propriedades reativas do Vue.
 
 
--> Aula 75
