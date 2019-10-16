@@ -30,3 +30,11 @@ Você pode aprender mais sobre o arquivo ".vue" nesse artigo da documentação o
 Você pode aprender mais sobre o método  render()  nesse outro artigo na documentação oficial: https://br.vuejs.org/v2/guide/render-function.html
 
 Aprenda mais sobre o Vue CLI aqui: https://cli.vuejs.org/
+
+1) Ferramenta de Desenvolvimento Vue (https://github.com/vuejs/vue-devtools)
+
+2) A ferramenta de Desenvolvedor do Chrome
+Quando estiver trabalhando com projetos criados com o CLI , você pode facilmente debugar a sua aplicação abrindo o a ferramenta de desenvolvimento (abaixo exemplo no Chrome) abrir a aba sources. Você deverá ver a pasta webpack:// e dentro você encontrará todos os arquivos do projeto (área em destaque vermelha).
+
+Agora é só abrir os arquivos e colocar os breakpoints para debugar a sua aplicação em execução.
+
