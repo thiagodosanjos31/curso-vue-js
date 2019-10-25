@@ -38,3 +38,17 @@ Quando estiver trabalhando com projetos criados com o CLI , você pode facilment
 
 Agora é só abrir os arquivos e colocar os breakpoints para debugar a sua aplicação em execução.
 
+5. Comunicação entre componentes
+
+Documentação Oficial - Props: https://br.vuejs.org/v2/guide/components.html#Passando-Dados-aos-Filhos-com-Props
+
+Documentação Oficial - Eventos Personalizados: https://br.vuejs.org/v2/guide/components.html#Enviando-Mensagens-ao-Pai-com-Eventos
+
+```shell
+uigradients.com : são backgrounds interessantes 
+```
+
+9. Componentes avançados
+Documentação Oficial - Slots: https://br.vuejs.org/v2/guide/components.html#Distribuicao-de-Conteudo-com-Slots
+
+Documentação Oficial - Componentes Dinâmicos: https://br.vuejs.org/v2/guide/components.html#Componentes-Dinamicos
