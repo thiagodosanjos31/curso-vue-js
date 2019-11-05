@@ -52,3 +52,11 @@ uigradients.com : são backgrounds interessantes
 Documentação Oficial - Slots: https://br.vuejs.org/v2/guide/components.html#Distribuicao-de-Conteudo-com-Slots
 
 Documentação Oficial - Componentes Dinâmicos: https://br.vuejs.org/v2/guide/components.html#Componentes-Dinamicos
+
+12. Diretivas: 
+Documentação Oficial - Diretivas Personalizadas: https://br.vuejs.org/v2/guide/custom-directive.html
+
+13. Mixins e filtros:
+Documentação Oficial - Filtros: https://br.vuejs.org/v2/guide/filters.html
+
+Documentação Oficial - Mixins: https://br.vuejs.org/v2/guide/mixins.html
