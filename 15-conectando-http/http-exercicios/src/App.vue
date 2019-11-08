@@ -56,7 +56,7 @@ export default {
 	methods: {
 		salvar(){
 			this.$http.post('usuarios.json', this.usuario)
-			.then(res => {
+			.then(() => {
 				this.usuario.nome = ''
 				this.usuario.email = ''
 			})
@@ -67,6 +67,8 @@ export default {
 				// console.log(this.usuarios)
 			})
 			// this.$http.get('usuarios.json') -> UMA ALTERNATIVA
+
+			// this.$http.defaults.headers.common['Authorization'] = 'token'
 		}
 	}
 }
