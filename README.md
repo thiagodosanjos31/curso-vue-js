@@ -60,3 +60,7 @@ Documentação Oficial - Diretivas Personalizadas: https://br.vuejs.org/v2/guide
 Documentação Oficial - Filtros: https://br.vuejs.org/v2/guide/filters.html
 
 Documentação Oficial - Mixins: https://br.vuejs.org/v2/guide/mixins.html
+
+15. Vue Developer Tools: https://github.com/vuejs/vue-devtools
+
+16. Documentação do Vuex: https://vuex.vuejs.org/guide/

@@ -1,0 +1,2 @@
+Por que usar um gerenciador de estado?
+É necessário a utilização quando um projeto está muito grande e você quer que somente os componentes envolvidos em um determinado evento reajam, sem a necessidade dos demais entrarem no circuito de retransmitir aquela determinada ação.
